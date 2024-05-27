@@ -36,3 +36,13 @@ wromox
 
 ###
 # 3D Enbeded Content 
+
+### Deny Domain Info 
+
+wen bei website domain is set 'X-Frame-Options' to 'deny', which prevents the site from being embedded in an iframe.
+then you won't be able to embed that page in an iframe on your site using security policies like Content-Security-Policy or X-Frame- Options. 
+In this case, you should consider other methods or alternatives to display the content of that page on your site.
+
+
+
+
