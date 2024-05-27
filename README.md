@@ -16,7 +16,7 @@ wromox
         <meta charset="utf-8" />
     </head>
     <body>
-        <iframe src="https://huggingface.co/spaces/Wromo/Start-Next-text-to-speech-tts?logs=container" width="100%" height="640px" frameborder="0" scrolling="0"></iframe>
+        <iframe src="https://www.wromo.com/index-business.html" width="100%" height="640px" frameborder="0" scrolling="0"></iframe>
     </body>  
 </html>
 ````
@@ -29,7 +29,7 @@ wromox
     <title></title>
     <meta charset="utf-8" />
     <!-- Permite încorporarea în iframes -->
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://huggingface.co">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://www.wromo.com">
 </head>
 ````
 3D Enbeded Content Website
