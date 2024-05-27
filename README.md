@@ -24,8 +24,13 @@ wromox
         <!-- Permite încorporarea în iframes -->
         <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://*.https://huggingface.co/spaces/Wromo/Start-Next-text-to-speech-tts">
     </head>
-    -->
+    --> 
 
+###  Accept domain security: 
+````
+   <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://*.https://huggingface.co/spaces/Wromo/Start-Next-text-to-speech-tts">
+  </head>
+````
 3D Enbeded Content Website
 
 ###
