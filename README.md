@@ -1,4 +1,4 @@
-# Enbeded iframe
+# Embedded iframe
 ## https://ghepes.github.io/Enbeded/
 
 <a href="https://ghepes.github.io/Enbeded/">@Ghepes/Enbeded</a>
@@ -6,6 +6,16 @@
 <iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe><iframe src="https://jeromeetienne.github.io/threex.planets/examples/earth.html" width="25%" height="440px" frameborder="0" scrolling="0"></iframe>
 -->
 
+
+### Head Accept domain security for main domain: 
+````
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <!-- Permite încorporarea în iframes -->
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://www.wromo.com">
+</head>
+````
 
 ### Body ifram No security
 ````
@@ -21,17 +31,13 @@
 </html>
 ````
 
-   
+### iframe full-screen-preview__frame
+````
+<iframe class="full-screen-preview__frame" src="https://www.wromo.com/tf/xeco/" name="preview-frame" frameborder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style="height: 1217px;">
+</iframe>
+````   
 
-### Head Accept domain security for main domain: 
-````
-<head>
-    <title></title>
-    <meta charset="utf-8" />
-    <!-- Permite încorporarea în iframes -->
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://www.wromo.com">
-</head>
-````
+
 3D Enbeded Content Website
 
 ###
