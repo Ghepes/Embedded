@@ -36,7 +36,10 @@
 <iframe class="full-screen-preview__frame" src="https://www.wromo.com/tf/xeco/" name="preview-frame" frameborder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style="height: 1217px;">
 </iframe>
 ````   
-
+### Exemple iframe cookiebot
+````
+<iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe>
+````
 
 3D Enbeded Content Website
 
