@@ -68,6 +68,40 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
 </script>
 ````
 
+# Exemple iframe with css icon end js ... function to fix height of iframe!
+````
+//]]>
+</script><link rel="stylesheet" media="all" href="https://public-assets.envato-static.com/assets/market/core/index-1870c48b7aeda502aff780c5a21bd7b15ab21ebc2ebb4b5fa87c65b862ceb3a8.css">
+    <link rel="stylesheet" media="all" href="https://public-assets.envato-static.com/assets/market/pages/preview/index-c20c294967c4ed0be90d33e130e591a57859fccaebd0a19bf00bf499d001afc3.css">
+
+      <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-72x72-precomposed.png" sizes="72x72">
+  <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-114x114-precomposed.png" sizes="114x114">
+  <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-144x144-precomposed.png" sizes="144x144">
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-precomposed.png">
+
+    <script src="index-12553ba97c0c709bc106912064580bef531a9617671f599502aca9598a9086fa.js" nonce="mCVkzOXZWy1raWhMtuPH6Q=="></script>
+
+    <script nonce="mCVkzOXZWy1raWhMtuPH6Q==">
+//<![CDATA[
+      //function to fix height of iframe!
+      var calcHeight = function() {
+        var headerDimensions = $('.preview__header').height();
+        $('.full-screen-preview__frame').height($(window).height() - headerDimensions);
+      }
+
+      $(document).ready(function() {
+        calcHeight();
+      });
+
+      $(window).resize(function() {
+        calcHeight();
+      }).load(function() {
+        calcHeight();
+      });
+
+//]]>
+</script>
+````
 
 3D Enbeded Content Website
 
