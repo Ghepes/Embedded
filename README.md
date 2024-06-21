@@ -57,7 +57,7 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
 </script> 
 ````
 
-### Exemple Nonblok trasport .js from Gist github like normal cdn
+### Exemple Nonblok trasport .js from Gist github like cdn
 ````
 
 <script type="text/javascript" charset="UTF-8" async="" src="https://gist.githubusercontent.com/Ghepes/68d961b429b062c123857ab3c90a794a/raw/1b447167da3f31dab4b2eb0dde2d1b121b83820e/login-attempts?renew=false&amp;referer=iframe-wromo.test&amp;dnt=false&amp;init=false"></script><script type="text/javascript" async="" src="https://gist.githubusercontent.com/Ghepes/204501b59fccddc5fa322a2d2963fb0b/raw/f7b07122080e2cb54e0f293a12f8fb34c921f07d/app.min.js" nonce=""></script><script type="text/javascript" async="" src="https://gist.githubusercontent.com/Ghepes/204501b59fccddc5fa322a2d2963fb0b/raw/f7b07122080e2cb54e0f293a12f8fb34c921f07d/bootstrap-slider.min.js" nonce=""></script><script type="text/javascript" async="" src="https://gist.github.com/Ghepes/204501b59fccddc5fa322a2d2963fb0b.js" nonce=""></script><script type="text/javascript" async="" src=""></script><script async="" src=""></script><script>
