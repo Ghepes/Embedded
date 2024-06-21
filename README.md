@@ -81,7 +81,7 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
 
     <script src="index-12553ba97c0c709bc106912064580bef531a9617671f599502aca9598a9086fa.js" nonce=""></script>
 
-    <script nonce="mCVkzOXZWy1raWhMtuPH6Q==">
+    <script nonce="">
 //<![CDATA[
       //function to fix height of iframe!
       var calcHeight = function() {
