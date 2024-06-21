@@ -102,7 +102,7 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
 //]]>
 </script>
 ````
-### Exemple Geolocal iframe
+### Exemple Geolocation iframe
 ````
 <iframe class="full-screen-preview__frame" src="https://www.wromo.com/" name="preview-frame" frameborder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style="height: 1217px;">
 </iframe>
