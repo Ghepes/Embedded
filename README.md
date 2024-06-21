@@ -79,7 +79,7 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
   <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-144x144-precomposed.png" sizes="144x144">
 <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-precomposed.png">
 
-    <script src="index-12553ba97c0c709bc106912064580bef531a9617671f599502aca9598a9086fa.js" nonce="mCVkzOXZWy1raWhMtuPH6Q=="></script>
+    <script src="index-12553ba97c0c709bc106912064580bef531a9617671f599502aca9598a9086fa.js" nonce=""></script>
 
     <script nonce="mCVkzOXZWy1raWhMtuPH6Q==">
 //<![CDATA[
