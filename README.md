@@ -41,6 +41,23 @@
 <iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe>
 ````
 
+
+### Exemple 4000 milisecunde = 4 secunde
+````
+
+<iframe id="myFrame" src="https://ai.wromo.com/img/index/" width="600" height="400"></iframe>
+
+<script>
+function refreshFrame() {
+  var frame = document.getElementById('myFrame');
+  frame.src = frame.src;
+}
+
+setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
+</script> 
+````
+
+
 3D Enbeded Content Website
 
 ###
@@ -51,6 +68,7 @@
 wen bei website domain is set 'X-Frame-Options' to 'deny', which prevents the site from being embedded in an iframe.
 then you won't be able to embed that page in an iframe on your site using security policies like Content-Security-Policy or X-Frame- Options. 
 In this case, you should consider other methods or alternatives to display the content of that page on your site.
+
 
 
 
