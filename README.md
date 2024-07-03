@@ -123,7 +123,7 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
 <link rel="alternate" type="application/json+oembed" href="http://www.domain.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.domain.com%3A433%2F">
 ````
 
-### Exemple dns-prefetch api
+### Exemple ( manifest.json ) dns-prefetch api
 ````
 <!doctype html>
 <html lang="en">
