@@ -123,6 +123,40 @@ setInterval(refreshFrame, 4000); // 4000 milisecunde = 4 secunde
 <link rel="alternate" type="application/json+oembed" href="http://www.domain.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.domain.com%3A433%2F">
 ````
 
+### Exemple dns-prefetch api
+````
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <link rel="manifest" href="/core/manifest.json">
+        <link rel="dns-prefetch" href="https://js.domain.com" crossorigin>
+        <link rel="dns-prefetch" href="https://customer.api.domain.com" crossorigin>
+        <link rel="dns-prefetch" href="https://conversation.api.domain.com" crossorigin>
+        <link rel="dns-prefetch" href="https://targeting.api.domain.com" crossorigin>
+        <link rel="dns-prefetch" href="https://metrics.api.domain.com" crossorigin>
+        <title>Domain Widget</title>
+        <script type="text/javascript">
+            __ENV__ = "PRODUCTION",
+            __BUILD_ID__ = "2000000-abcdefg",
+            __REGION__ = window.location.search.match("[\\?&]region=([^&#]*)") ? window.location.search.match("[\\?&]region=([^&#]*)")[1] : "US"
+        </script>
+        <link rel="preload" href="/core/assets/js/runtime~main.a7777777.js" as="script" crossorigin="anonymous">
+        <link rel="preload" href="/core/assets/js/9.0a000000.chunk.js" as="script" crossorigin="anonymous">
+        <link rel="preload" href="/core/assets/js/main~000000.011010101.chunk.js" as="script" crossorigin="anonymous">
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <script src="/core/assets/js/runtime~main.a7777777.js" crossorigin="anonymous"></script>
+        <script src="/core/assets/js/9.0a000000.chunk.js" crossorigin="anonymous"></script>
+        <script src="/core/assets/js/main~000000.011010101.chunk.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+````
+
 3D Enbeded Content Website
 
 ###
